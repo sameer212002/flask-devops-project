@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask App is Running with MySQL!"
+    return "hello sameer!"
 
 @app.route("/health")
 def health():
